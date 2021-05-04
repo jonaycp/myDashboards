@@ -69,7 +69,7 @@ def test_crypto():
 
 def test_stock():
     degiro = degiroapi.DeGiro()
-    degiro.login("jonaycp", "T3r3zk42019")
+    degiro.login("", "")
     portfolio = degiro.getdata(degiroapi.Data.Type.PORTFOLIO, True)
     st.title("Bienvenido a tu dashboard!")
     st.title("Degiro")
